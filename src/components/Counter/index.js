@@ -28,20 +28,6 @@ import PropTypes from "prop-types"
          }
        </Counter>
 
-   Children Function Signature
-   ---------------------------
-
-   The function signature for the children render function is:
-
-   function (counterValue, incrementerFunc, resetFunc) {}
-
-   - counterValue [number] current value of counter state
-   - incrementFunc [func] function to increment counter, the signuture is:
-
-         function (step) {}
-
-   - resetFunc [func] resets the counter to the initial value property
-
  */
 
 export default class Counter extends React.Component {
@@ -55,8 +41,18 @@ export default class Counter extends React.Component {
 
     // Use children as a render prop, taking in the current state of the
     // counter, and the incrementing function.
+    //
+    // The signature of the children function is:
+    //
+    //     function (currentValue, incrementFunc, resetFunc) {}
+    //
+    // - currentValue [number]
+    // - incrementFunx [function] takes a numeric step value
+    // - resetFunc [function] resets the counter to it's initialValue prop
     children: PropTypes.func.isRequired,
 
+    // Callback function with a parameter to receive the current counter value.
+    // This lets components up the tree keep track of the counter when it changes.
     onChange: PropTypes.func
   }
 
