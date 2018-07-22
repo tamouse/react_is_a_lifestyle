@@ -1,0 +1,845 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test AppCounter renders the AppCounter 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppCounter
+    currentValue={0}
+    incrementer={[Function]}
+    reset={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="result "
+/>,
+        <div>
+          <button
+                    className="counter-button"
+                    id="dbldecbtn"
+                    onClick={[Function]}
+          >
+                    --
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="decbtn"
+                    onClick={[Function]}
+          >
+                    -
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="resetbtn"
+                    onClick={[Function]}
+          >
+                    C
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="incbtn"
+                    onClick={[Function]}
+          >
+                    +
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="dblincbtn"
+                    onClick={[Function]}
+          >
+                    ++
+          </button>
+</div>,
+      ],
+      "className": "counter",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 0,
+          "className": "result ",
+        },
+        "ref": null,
+        "rendered": 0,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="counter-button"
+              id="dbldecbtn"
+              onClick={[Function]}
+>
+              --
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="decbtn"
+              onClick={[Function]}
+>
+              -
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="resetbtn"
+              onClick={[Function]}
+>
+              C
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="incbtn"
+              onClick={[Function]}
+>
+              +
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="dblincbtn"
+              onClick={[Function]}
+>
+              ++
+</button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "--",
+              "className": "counter-button",
+              "id": "dbldecbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "--",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "-",
+              "className": "counter-button",
+              "id": "decbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "-",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "C",
+              "className": "counter-button",
+              "id": "resetbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "C",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "+",
+              "className": "counter-button",
+              "id": "incbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "+",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "++",
+              "className": "counter-button",
+              "id": "dblincbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "++",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="result "
+/>,
+          <div>
+            <button
+                        className="counter-button"
+                        id="dbldecbtn"
+                        onClick={[Function]}
+            >
+                        --
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="decbtn"
+                        onClick={[Function]}
+            >
+                        -
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="resetbtn"
+                        onClick={[Function]}
+            >
+                        C
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="incbtn"
+                        onClick={[Function]}
+            >
+                        +
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="dblincbtn"
+                        onClick={[Function]}
+            >
+                        ++
+            </button>
+</div>,
+        ],
+        "className": "counter",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 0,
+            "className": "result ",
+          },
+          "ref": null,
+          "rendered": 0,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="counter-button"
+                id="dbldecbtn"
+                onClick={[Function]}
+>
+                --
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="decbtn"
+                onClick={[Function]}
+>
+                -
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="resetbtn"
+                onClick={[Function]}
+>
+                C
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="incbtn"
+                onClick={[Function]}
+>
+                +
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="dblincbtn"
+                onClick={[Function]}
+>
+                ++
+</button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "--",
+                "className": "counter-button",
+                "id": "dbldecbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "--",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "-",
+                "className": "counter-button",
+                "id": "decbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "-",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "C",
+                "className": "counter-button",
+                "id": "resetbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "C",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "+",
+                "className": "counter-button",
+                "id": "incbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "+",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "++",
+                "className": "counter-button",
+                "id": "dblincbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "++",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`test AppCounter should show changing class on result update 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppCounter
+    currentValue={2}
+    incrementer={[Function]}
+    reset={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="result changing"
+>
+          2
+</div>,
+        <div>
+          <button
+                    className="counter-button"
+                    id="dbldecbtn"
+                    onClick={[Function]}
+          >
+                    --
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="decbtn"
+                    onClick={[Function]}
+          >
+                    -
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="resetbtn"
+                    onClick={[Function]}
+          >
+                    C
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="incbtn"
+                    onClick={[Function]}
+          >
+                    +
+          </button>
+           
+          <button
+                    className="counter-button"
+                    id="dblincbtn"
+                    onClick={[Function]}
+          >
+                    ++
+          </button>
+</div>,
+      ],
+      "className": "counter",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 2,
+          "className": "result changing",
+        },
+        "ref": null,
+        "rendered": 2,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="counter-button"
+              id="dbldecbtn"
+              onClick={[Function]}
+>
+              --
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="decbtn"
+              onClick={[Function]}
+>
+              -
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="resetbtn"
+              onClick={[Function]}
+>
+              C
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="incbtn"
+              onClick={[Function]}
+>
+              +
+</button>,
+            " ",
+            <button
+              className="counter-button"
+              id="dblincbtn"
+              onClick={[Function]}
+>
+              ++
+</button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "--",
+              "className": "counter-button",
+              "id": "dbldecbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "--",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "-",
+              "className": "counter-button",
+              "id": "decbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "-",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "C",
+              "className": "counter-button",
+              "id": "resetbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "C",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "+",
+              "className": "counter-button",
+              "id": "incbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "+",
+            "type": "button",
+          },
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "++",
+              "className": "counter-button",
+              "id": "dblincbtn",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "++",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="result changing"
+>
+            2
+</div>,
+          <div>
+            <button
+                        className="counter-button"
+                        id="dbldecbtn"
+                        onClick={[Function]}
+            >
+                        --
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="decbtn"
+                        onClick={[Function]}
+            >
+                        -
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="resetbtn"
+                        onClick={[Function]}
+            >
+                        C
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="incbtn"
+                        onClick={[Function]}
+            >
+                        +
+            </button>
+             
+            <button
+                        className="counter-button"
+                        id="dblincbtn"
+                        onClick={[Function]}
+            >
+                        ++
+            </button>
+</div>,
+        ],
+        "className": "counter",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 2,
+            "className": "result changing",
+          },
+          "ref": null,
+          "rendered": 2,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="counter-button"
+                id="dbldecbtn"
+                onClick={[Function]}
+>
+                --
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="decbtn"
+                onClick={[Function]}
+>
+                -
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="resetbtn"
+                onClick={[Function]}
+>
+                C
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="incbtn"
+                onClick={[Function]}
+>
+                +
+</button>,
+              " ",
+              <button
+                className="counter-button"
+                id="dblincbtn"
+                onClick={[Function]}
+>
+                ++
+</button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "--",
+                "className": "counter-button",
+                "id": "dbldecbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "--",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "-",
+                "className": "counter-button",
+                "id": "decbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "-",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "C",
+                "className": "counter-button",
+                "id": "resetbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "C",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "+",
+                "className": "counter-button",
+                "id": "incbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "+",
+              "type": "button",
+            },
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "++",
+                "className": "counter-button",
+                "id": "dblincbtn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "++",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
